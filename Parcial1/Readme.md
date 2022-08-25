@@ -1,2 +1,2 @@
 # KARIME ROSADO HERNANDEZ
-:girl:
+\* Actualmente estoy cursando 7º semetre \*
