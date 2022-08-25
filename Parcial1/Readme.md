@@ -1,3 +1,3 @@
 # KARIME ROSADO HERNANDEZ
-![Logo tec](https://images.app.goo.gl/km7Jvb1NhPJ1R2zP6)
+![Logo tec](https://www.universia.net/mx/universidades/instituto-tecnologico-de-nuevo-laredo.01373.html)
 
