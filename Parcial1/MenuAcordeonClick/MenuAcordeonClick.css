@@ -10,9 +10,12 @@ ul
     list-style: none;
     width: 200px;
     height: 500px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
 }
 
-/*Inicialmente los submenús estan esconcidos */
+
 ul > li > ul 
 {
     display: none;
@@ -26,19 +29,26 @@ ul > li:target > ul
 
 .opcion 
 {
-    background: blue;
-     color: white;
+    background: rgba(255, 255, 255, 0.452);
+     color: rgb(0, 0, 0);
+     margin: 25px;
+     text-align: center;
+     
 }
 
 a
 {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
 .subOpcion
 {
     padding-left: 20px;
-    background: gray;
-    color: white;
+    background: rgba(220, 243, 116, 0.5);
+    color: rgba(0, 0, 0, 0.747);
+    right: -140px;
+    top: 0px;
+    text-align: center;
 }
+

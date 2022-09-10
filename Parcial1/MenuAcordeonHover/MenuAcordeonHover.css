@@ -1,37 +1,70 @@
 *
 {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    padding: 0px;
+    margin:0px;
+    
 }
 
-ul
+#header
+{
+    width: 1000px;
+    font-style: italic;
+    margin-inline: 250px;
+}
+
+ul, ol
 {
     list-style: none;
-    width: 200px;
-    height: 500px;
 }
 
-ul > li > ul 
+.container li a
 {
-    display: none;
+    background-color: rgba(226, 226, 226, 0.466);
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+    padding: 10px 15px;
+    display: block;
+    
+    
 }
 
-ul > li:hover > ul
+.container li a:hover
+{
+    background-color: rgb(255, 126, 158);
+}
+
+.container > li
+{
+    float:left;
+}
+
+.container li ul
+{
+    display:none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.container li:hover > ul
 {
     display: block;
-    height: 100%;
+
 }
 
-.opcion
+.container li ul li
 {
-    background: blue;
-    color: white;
+    position: relative;
 }
 
-.subOpcion
+.container li ul li ul
 {
-    padding-left: 20px;
-    background: gray;
-    color: white;
+    right: -140px;
+    top: 0px;
+    text-align: center;
 }
+
+
+
+
+
+
