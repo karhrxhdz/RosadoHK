@@ -11,6 +11,20 @@ padding: 0;
     height: 100%;
 }
 
+.boton
+{
+    border: 2px solid #000000; 
+    padding: 5px;
+    background-color: #ff00ff; 
+    color: #000000; 
+    position:absolute;
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: 'Helvetica', sans-serif; 
+    border-radius: 5px; 
+}
+
+
 div.sidebar
 {
     position: fixed;
@@ -20,9 +34,12 @@ div.sidebar
     overflow: auto;
 }
 
+input{display: none;}
+input:checked + .sidebar{display: none;}
+
 a
 {
-    display: table;
+    display: block;
     text-decoration: none;
     padding: 5px;
 }
@@ -35,16 +52,20 @@ a:hover
 
 div.content
 {
+    float: left;
     background-color: rgb(2, 243, 54);
     margin-left: 200px;
     padding: 1px 16px;
     height: 1500px;
+    width: 1160px;
 }
 
 .contenidoOpcion
 {
     display: none;
 }
+
+
 
 @media screen and (max-width: 1200px)
 {
@@ -68,4 +89,3 @@ float: none;
 text-align: center;
 }
 }
-    
