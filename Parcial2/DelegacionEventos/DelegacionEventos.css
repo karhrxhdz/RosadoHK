@@ -27,6 +27,7 @@
 {
    
     background-color: rgb(38, 43, 40);
+    color: aqua;
     text-align: center;
     border: 1px solid rgb(38, 43, 40);
 }
@@ -62,7 +63,7 @@
 
 .transformacion
 {
-    transform: skew(30deg,30deg);
+    transform: skew(50deg,50deg);
 }
 
 @media screen and (max-width: 800px)
