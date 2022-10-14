@@ -9,7 +9,7 @@
 {
     width: 100vw;
     height: 100vh;
-    background-color: blue;
+    background-color: rgb(255, 251, 0);
 
     display: grid;
     grid-template-columns: 15% 40% 45%;
