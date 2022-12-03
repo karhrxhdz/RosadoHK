@@ -16,6 +16,6 @@ else{
     echo '<br>Fecha de creacion de cookie: <br>'. $fechahoy.'<br>';
     echo '<br>Fecha de Vencimiento de cookie: <br>'. $fechaExpira.'<br>';
 
-    setcookie("ultimavisita".$fechahoy,time() + (7 * 24 * 60 * 60));
+    setcookie("ultimavisita",$fechahoy,time() + (7 * 24 * 60 * 60));
 }
 ?>
